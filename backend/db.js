@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://ansh:anshoberoi1201@cluster0.kaj7eqh.mongodb.net/")
+mongoose.connect("Write you own connection")
 const userschema=new mongoose.Schema({
     username:{
         type:String,
